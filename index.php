@@ -12,10 +12,8 @@
         Training (
         <br>
         <?php
-
         //test manual fill to $nidalArray
         //$nidalArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
         //test Automatic fill to $myArray
         $myArray = Null;
         for ($z = 0; $z < 10; $z++) {
@@ -40,7 +38,7 @@
     </span>
     <h3>Useful Functions in Array (Built in)</h3>
     <!-- test add new item to the end of the Array-->
-    <h3 style="color: gray">
+    <h4 style="color: gray">
         <?php
         $nidalArray = [1, 2, 3];
         //if we need to add item at the end of the Array 
@@ -62,7 +60,7 @@
         $end2 = $nidalArray[count($nidalArray) - 1];
         echo " last item is : $end2 using second way <br>";
         ?>
-    </h3>
+    </h4>
     <br>
     <h3 style="color: forestgreen">Stack and Queue functions</h3>
     <h4>
@@ -74,9 +72,7 @@
             print_r($value);
             print_r('<br>');
         }
-
         ?>
-
     </h4>
 
 
