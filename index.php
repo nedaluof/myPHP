@@ -65,7 +65,7 @@
     </h3>
     <br>
     <h3 style="color: forestgreen">Stack and Queue functions</h3>
-    <h3>
+    <h4>
         <?php
         $nidalArray2 = [1, 2, 3];
         array_push($nidalArray2, 10);
@@ -77,7 +77,7 @@
 
         ?>
 
-    </h3>
+    </h4>
 
 
 </body>
